@@ -7,7 +7,7 @@ import Contact from './pages/contact';
 
 function App() {
   return (
-    <div>
+    <div className='bg-gradient-to-t from-blue-500 to-transparent'>
       <Home />,
       <Footer />,
       <Contact />

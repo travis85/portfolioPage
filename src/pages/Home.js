@@ -1,7 +1,7 @@
 import React from "react";
 import Typical from "react-typical"
 import pic from "../assets/portfolioPic.jpeg"
-
+import backgroundPic from "../assets/backgroundPic.jpeg"
 
 const Home = () => {
   return (
@@ -9,21 +9,21 @@ const Home = () => {
     <div className='ProfileParent flex flex-row'>
       <div className='ProfileDetails basis-2/3'>
 
-        <div className=' flex flex-col mt-12 mb-10'>
+        <div className=' flex flex-col mt-20 mb-10'>
           <span className='primar-text text-black'>
             {""}
             <h1 className='text-4xl'>
-              {""}
+              
               <Typical
                 loop={Infinity}
                 steps={[
-                  'Motived Developer💻 ',
-                  1100,
                   'Full Stack Developer💻 ',
                   1100,
-                  'MERN DEV 💻' ,
+                  'React💻 ',
                   1100,
-                  'React Developer 💻',
+                  'Javascript 💻' ,
+                  1100,
+                  'Postgres SQL 💻',
                   1100,
                 ]}
                 wrapper="h1"
@@ -45,16 +45,19 @@ const Home = () => {
       </div>
 
       </div>
-        <div className=' basis-1/3  flex justify-content-center  items-center shadow-xl mt-4'>
-          <div className=''>
-            <img className='rounded-full shadow-2xl h-52' src={pic}/>
-            <div className=' text-2xl mt-10 mb-4'>
-              <span className='primary-text'>
+        <div className=' basis-1/3  flex justify-content-center  items-center shadow-xl mt-4 rounded-tl-xl rounded-bl-xl'>
+          <img className='relative w-100 rounded-tl-xl rounded-bl-xl opacity-90' src={backgroundPic}/>
+
+          <div className='absolute'>
+            <img className='rounded-full  h-52' src={pic}/>
+            <div className=' text-2xl mt-10 '>
+              <span className='primary-text text-white'>
                 {''}
-                Hello I'm <span className='highlighted-text text-blue-900'>Travis</span><span className='ml-2'>
-                <a href='https://github.com/travis85'>
-                  <i className="bi bi-github"></i>
-                </a>
+                Hello, I'm <span className='highlighted-text text-red-500 '>Travis!</span><br></br>
+                <span className=''>
+                  <a href='https://github.com/travis85'>
+                    <i className="bi bi-github mt-4 hover:text-red-500"></i>
+                  </a>
                 </span>
               </span>
             </div>

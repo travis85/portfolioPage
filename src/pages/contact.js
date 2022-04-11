@@ -21,7 +21,7 @@ function Contact() {
     }
 
   return (
-    <div className=' flex flex-col justify-center w-100	 px-40 py-10 mt-8   bg-gradient-to-r from-gray-500 '>
+    <div className=' flex flex-col justify-center w-100	 px-40 py-10  mt-0   bg-gradient-to-r from-gray-500 '>
 
         {/* HEADER SECTION */}
         <div className='flex justify-center text-4xl italic font-semibold mb-4'>

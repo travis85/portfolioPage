@@ -2,6 +2,8 @@ import React from "react";
 import Typical from "react-typical"
 import pic from "../assets/portfolioPic.jpeg"
 import backgroundPic from "../assets/backgroundPic.jpeg"
+import resume from "../assets/Resume.pdf"
+
 
 const Home = () => {
   return (
@@ -29,17 +31,18 @@ const Home = () => {
                 wrapper="h1"
               />
             </h1>
-            <span className='profileRoleTagLine text-xl'>
-              knack for creative problem solving!
+            <span className=' text-xl'>
+              Dedicated - Motivated - Reliable
             </span>
           </span>
       </div>
       <div className='mb-10'>
-        <button className="animate-bounce border-solid border-2 rounded py-1 px-2 ring-2  m-2  bg-blue-800 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+        <button   className="animate-bounce border-solid border-2 rounded py-1 px-2 ring-2  m-2  bg-blue-800 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
           {''}
           Contact Me{''}
         </button>
-        <a href='../Resume/Resume.pdf' download>
+
+        <a href='../assets/Resume.pdf' download={resume}>
           <button className="animate-bounce border-solid border-2 rounded py-1 px-2 ring-2  bg-blue-800 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300" >Resume</button>
         </a>
       </div>
@@ -56,7 +59,7 @@ const Home = () => {
                 Hello, I'm <span className='highlighted-text text-red-500 '>Travis!</span><br></br>
                 <span className=''>
                   <a href='https://github.com/travis85'>
-                    <i className="bi bi-github mt-4 hover:text-red-500"></i>
+                    <i className="bi bi-github mt-4 hover:text-red-500 "></i>
                   </a>
                 </span>
               </span>

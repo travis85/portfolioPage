@@ -13,7 +13,7 @@ export default function AboutMe() {
             <div className='flex flex-cols-1 basis-1/3  text-2xl ml-4  mt-8 mr-20'>
                 <br></br>
                 <p>
-                    "There is no greater thing you can do with your <span className='highlighted-text text-red-700 '>life </span>and your work than follow your <span className='highlighted-text text-red-700 '>passions</span> in a way that <span className='highlighted-text text-red-700 '>serves the world</span> and you!"
+                    "There is no greater thing you can do with your <span className='highlighted-text text-red-700 text-3xl'>life </span>and your work than follow your <span className='highlighted-text text-red-700 text-3xl'>passions</span> in a way that <span className='highlighted-text text-red-700 text-3xl'>serves the world</span> and you!"
                     <br></br> -Richard Branson-
                 </p>
             </div>
@@ -26,7 +26,7 @@ export default function AboutMe() {
                 </div>
 
 
-                <h1 >I'm Travis, A Junior Software Engineer</h1>
+                <h1 >I'm <span className='highlighted-text text-red-700 text-3xl'>Travis</span>, A Junior Software Engineer</h1>
                 <h3>Based out of Romulus, Michigan</h3>
                 <p>that's not afraid of new challenges! </p><br></br>
                 <span className='highlighted-text text-red-700 text-3xl'><p>Hard Work + Dedication = Success!</p></span>

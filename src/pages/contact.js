@@ -47,7 +47,7 @@ function Contact() {
                         <label className="form-label text-2xl ">Message:</label>
                         <textarea name='message' className="form-control " />
                     </div>
-                    <input type="submit" value='Send' className="border-solid border-2 rounded py-2 px-4 ring-2  transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"></input>
+                    <input type="submit" value='Send' className="text-white border-solid border-2 rounded py-2 px-4 ring-2  transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"></input>
                 </div>
 
             </form>

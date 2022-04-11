@@ -21,7 +21,7 @@ function Contact() {
     }
 
   return (
-    <div className=' flex flex-col justify-center w-100	 px-40 py-10  mt-0   bg-gradient-to-r from-gray-500 '>
+    <div className=' flex flex-col justify-center w-100	 px-40 py-10 mt-8   bg-gradient-to-r from-gray-500 '>
 
         {/* HEADER SECTION */}
         <div className='flex justify-center text-4xl italic font-semibold mb-4'>
@@ -47,7 +47,7 @@ function Contact() {
                         <label className="form-label text-2xl ">Message:</label>
                         <textarea name='message' className="form-control " />
                     </div>
-                    <input type="submit" value='Send' className="text-white border-solid border-2 rounded py-2 px-4 ring-2  transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"></input>
+                    <input type="submit" value='Send' className="border-solid border-2 rounded py-2 px-4 ring-2  transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"></input>
                 </div>
 
             </form>

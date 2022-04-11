@@ -3,6 +3,8 @@ import Typical from "react-typical"
 import pic from "../assets/portfolioPic.jpeg"
 import backgroundPic from "../assets/backgroundPic.jpeg"
 import resume from "../assets/Resume.pdf"
+import { Button } from 'react-scroll'
+
 
 
 const Home = () => {
@@ -38,8 +40,8 @@ const Home = () => {
       </div>
       <div className='mb-10'>
         <button   className="animate-bounce border-solid border-2 rounded py-1 px-2 ring-2  m-2  bg-blue-800 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
-          {''}
-          Contact Me{''}
+          
+          Contact Me
         </button>
 
         <a href='../assets/Resume.pdf' download={resume}>

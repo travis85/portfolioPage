@@ -45,7 +45,7 @@ const Home = () => {
       </div>
 
       </div>
-        <div className=' basis-1/3  flex justify-content-center  items-center shadow-xl mt-4 rounded-tl-xl rounded-bl-xl'>
+        <div className=' basis-1/3  flex justify-content-center  items-center shadow-xl mt-4 rounded-tl-xl rounded-bl-xl border-solid border-2 rounded  ring-2 '>
           <img className='relative w-100 rounded-tl-xl rounded-bl-xl opacity-90' src={backgroundPic}/>
 
           <div className='absolute'>

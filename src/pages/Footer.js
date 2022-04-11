@@ -10,7 +10,7 @@ export default function Footer(){
         <div className=" mt-20  " >
 
             <div className="flex justify-center text-blue-500 text-6xl  font-semibold mb-4 ">
-                <h1 className= "font-mono italic text-blue-500 underline underline-offset-1	" >Featured Projects</h1>
+                <h1 className= "font-mono italic text-blue-900 underline underline-offset-1	" >Featured Projects</h1>
             </div>
             <div className="card mb-3 shadow-xl mr-[20%] ml-2 rounded-xl bg-gradient-to-r from-blue-500 to-transparent" >
                 <div className="row g-0">

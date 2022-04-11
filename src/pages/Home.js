@@ -7,7 +7,7 @@ import resume from "../assets/Resume.pdf"
 
 const Home = () => {
   return (
-    <div className="ProfileContainer  justify-center text-center place-items-center h-[10%] min-h-fit  ">
+    <div className="  justify-center text-center place-items-center h-[10%] min-h-fit  ">
     <div className='ProfileParent flex flex-row'>
       <div className='ProfileDetails basis-2/3'>
 

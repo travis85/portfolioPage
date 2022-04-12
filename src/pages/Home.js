@@ -2,12 +2,19 @@ import React from "react";
 import Typical from "react-typical"
 import pic from "../assets/portfolioPic.jpeg"
 import backgroundPic from "../assets/backgroundPic.jpeg"
-import resume from "../assets/Resume.pdf"
-import { Button } from 'react-scroll'
+import ResumePDF from '../assets/Resume.pdf'
+import { Document, Page } from 'react-pdf';
+import {Link} from 'react-scroll'
+import aboutMe from '../pages/AboutMe'
+
+
 
 
 
 const Home = () => {
+
+
+
   return (
     <div className="  justify-center text-center place-items-center h-[10%] min-h-fit  ">
     <div className='ProfileParent flex flex-row'>
@@ -39,12 +46,13 @@ const Home = () => {
           </span>
       </div>
       <div className='mb-10'>
+      <Link  to="contactMe" spy={true} smooth={true}>
         <button   className="animate-bounce border-solid border-2 rounded py-1 px-2 ring-2  m-2  bg-blue-800 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
-          
           Contact Me
         </button>
+        </Link>
 
-        <a href='../assets/Resume.pdf' download={resume}>
+        <a href={ResumePDF}>
           <button className="animate-bounce border-solid border-2 rounded py-1 px-2 ring-2  bg-blue-800 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300" >Resume</button>
         </a>
       </div>

@@ -3,7 +3,7 @@ import aboutMePic from "../assets/aboutMePic.jpeg"
 
 export default function AboutMe() {
   return (
-    <div className='mt-44 mb-44 flex flex-col justify-center text-center place-items-center '>
+    <div id='aboutMe'  className='mt-44 mb-44 flex flex-col justify-center text-center place-items-center '>
         <div className=''>
             <h1 className='flex justify-center  italic text-blue-900 underline underline-offset-1 text-6xl font-semibold '>About Me</h1>
         </div>
@@ -30,6 +30,8 @@ export default function AboutMe() {
                 <h3>Based out of Romulus, Michigan</h3>
                 <p>that's not afraid of new challenges! </p><br></br>
                 <span className='highlighted-text text-red-700 text-3xl'><p>Hard Work + Dedication = SUCCESS!</p></span>
+
+
             </div>
 
 

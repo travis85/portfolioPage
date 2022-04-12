@@ -12,7 +12,8 @@ function App() {
       <Home />,
       <Footer />,
       <AboutMe />,
-      <Contact />
+      <Contact />,
+
 
     </div>
 

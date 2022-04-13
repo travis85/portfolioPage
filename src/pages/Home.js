@@ -3,16 +3,11 @@ import Typical from "react-typical"
 import pic from "../assets/portfolioPic.jpeg"
 import backgroundPic from "../assets/backgroundPic.jpeg"
 import ResumePDF from '../assets/Resume.pdf'
-import { Document, Page } from 'react-pdf';
 import {Link} from 'react-scroll'
-import aboutMe from '../pages/AboutMe'
-
-
 
 
 
 const Home = () => {
-
 
 
   return (
@@ -59,21 +54,24 @@ const Home = () => {
 
       </div>
         <div className=' basis-1/3  flex justify-content-center  items-center shadow-xl mt-4 rounded-tl-xl rounded-bl-xl border-solid border-2 rounded  ring-2 '>
-          <img className='relative w-100 rounded-tl-xl rounded-bl-xl opacity-90' src={backgroundPic}/>
+        
+          <img className='relative w-100 rounded-tl-xl rounded-bl-xl opacity-90' src={backgroundPic} alt=""/>
 
           <div className='absolute'>
-            <img className='rounded-full  h-52' src={pic}/>
-            <div className=' text-2xl mt-10 '>
-              <span className='primary-text text-white'>
-                {''}
-                Hello, I'm <span className='highlighted-text text-red-500 '>Travis!</span><br></br>
-                <span className=''>
-                  <a href='https://github.com/travis85'>
-                    <i className="bi bi-github mt-4 hover:text-red-500 "></i>
-                  </a>
+            <img className='rounded-full  h-52' src={pic} alt=""/>
+
+              <div className=' text-2xl mt-10 '>
+                <span className='primary-text text-white'>
+                  {''}
+                  Hello, I'm <span className='highlighted-text text-red-500 '>Travis!</span><br></br>
+                  <span className=''>
+                    <a href='https://github.com/travis85'>
+                      <i className="bi bi-github mt-4 hover:text-red-500 "></i>
+                    </a>
+                  </span>
                 </span>
-              </span>
-            </div>
+              </div>
+            
 
 
           </div>

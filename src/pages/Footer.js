@@ -57,7 +57,7 @@ export default function Footer(){
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
-                            <a href="https://github.com/travis85/toDoList"><h2 className="flex justify-center italic font-semibold text-4xl text-blue-500 hover:-translate-y-1 hover:scale-110 hover:animate-bounce">To-do-List</h2></a>
+                            <a href="https://to-do-list-e1f8f.web.app"><h2 className="flex justify-center italic font-semibold text-4xl text-blue-500 hover:-translate-y-1 hover:scale-110 hover:animate-bounce">To-do-List</h2></a>
                             <div className="flex justify-center mt-20 text-2xl">
                                 <p className="">Never forget a task again!
                                  Set your priorities straight with the ultimate To-Do-List!</p>

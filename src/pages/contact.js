@@ -6,6 +6,9 @@ import emailjs from '@emailjs/browser';
 
 function Contact() {
     const form = useRef();
+    function emailAlert() {
+        alert('Email Sent! Thank You!!');
+    }
 
     function SendEmail(e) {
         e.preventDefault();
@@ -32,7 +35,7 @@ function Contact() {
 
         {/* EMAIL SECTION */}
         <div className='justify-center mb-10'>
-            <form ref={form}  onSubmit={SendEmail}>
+            <form ref={form}  onSubmit={SendEmail,emailAlert}>
 
                 <div className='max-w-[60%] '>
                     <div className="mb-3 ">

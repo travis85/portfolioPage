@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Typical from "react-typical"
 import pic from "../assets/portfolioPic.jpeg"
 import backgroundPic from "../assets/backgroundPic.jpeg"
 import ResumePDF from '../assets/Resume.pdf'
 import {Link} from 'react-scroll'
-
 
 
 const Home = () => {
@@ -18,9 +17,9 @@ const Home = () => {
         <div className=' flex flex-col mt-20 mb-10'>
           <span className='primar-text text-black'>
             {""}
-            <h1 className='text-4xl'>
+             <h1 className='text-4xl'>
               
-              <Typical
+              <Typical 
                 loop={Infinity}
                 steps={[
                   'Full Stack Developer💻 ',
@@ -35,7 +34,7 @@ const Home = () => {
                 wrapper="h1"
               />
             </h1>
-            <span className=' text-xl'>
+            <span className='text-xl'>
               Dedicated - Motivated - Reliable
             </span>
           </span>
@@ -60,7 +59,8 @@ const Home = () => {
           <div className='absolute'>
             <img className='rounded-full  h-52' src={pic} alt=""/>
 
-              <div className=' text-2xl mt-10 '>
+            <div className=' text-2xl mt-10 '>
+              
                 <span className='primary-text text-white'>
                   {''}
                   Hello, I'm <span className='highlighted-text text-red-500 '>Travis!</span><br></br>

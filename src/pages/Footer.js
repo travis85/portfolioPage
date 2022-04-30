@@ -22,7 +22,7 @@ export default function Footer() {
                     <div className="col-md-8 ">
 
                         <div className="card-body">
-                            <a href="weather-app-4a90b.web.app"><h5 className=" flex justify-center italic font-semibold text-4xl hover:-translate-y-1 hover:scale-110 hover:animate-bounce text-blue-500">Weather App</h5></a>
+                            <a href="https://weather-app-4a90b.web.app"><h5 className=" flex justify-center italic font-semibold text-4xl hover:-translate-y-1 hover:scale-110 hover:animate-bounce text-blue-500">Weather App</h5></a>
                             <div className="flex justify-center mt-20" >
                                 <p className="text-2xl">Find out what's the weather like in your favorite City!</p>
 

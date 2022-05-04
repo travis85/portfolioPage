@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b68ed67.css",
-    "main.js": "/static/js/main.71c7e1dc.js",
-    "static/js/787.87c8eaef.chunk.js": "/static/js/787.87c8eaef.chunk.js",
-    "static/media/portfolioPic.jpeg": "/static/media/portfolioPic.034155c34a181a2df199.jpeg",
-    "static/media/weatherPic.jpeg": "/static/media/weatherPic.69c72182177c65683725.jpeg",
-    "static/media/aboutMePic.jpeg": "/static/media/aboutMePic.810c66528b2d0a3ace18.jpeg",
-    "static/media/scrabblePic.jpeg": "/static/media/scrabblePic.72cb3934a238fe1bfa31.jpeg",
-    "static/media/Resume.pdf": "/static/media/Resume.ae39e63d91ddafdbd213.pdf",
-    "static/media/toDoListPic.png": "/static/media/toDoListPic.f795ae3e51c979fad76e.png",
-    "static/media/backgroundPic.jpeg": "/static/media/backgroundPic.81ea7fb17ad4f0420606.jpeg",
-    "index.html": "/index.html",
-    "main.3b68ed67.css.map": "/static/css/main.3b68ed67.css.map",
-    "main.71c7e1dc.js.map": "/static/js/main.71c7e1dc.js.map",
-    "787.87c8eaef.chunk.js.map": "/static/js/787.87c8eaef.chunk.js.map"
+    "main.css": "/portfolio-cbd3c.web.app/static/css/main.3b68ed67.css",
+    "main.js": "/portfolio-cbd3c.web.app/static/js/main.375c880d.js",
+    "static/js/787.87c8eaef.chunk.js": "/portfolio-cbd3c.web.app/static/js/787.87c8eaef.chunk.js",
+    "static/media/portfolioPic.jpeg": "/portfolio-cbd3c.web.app/static/media/portfolioPic.034155c34a181a2df199.jpeg",
+    "static/media/weatherPic.jpeg": "/portfolio-cbd3c.web.app/static/media/weatherPic.69c72182177c65683725.jpeg",
+    "static/media/aboutMePic.jpeg": "/portfolio-cbd3c.web.app/static/media/aboutMePic.810c66528b2d0a3ace18.jpeg",
+    "static/media/scrabblePic.jpeg": "/portfolio-cbd3c.web.app/static/media/scrabblePic.72cb3934a238fe1bfa31.jpeg",
+    "static/media/Resume.pdf": "/portfolio-cbd3c.web.app/static/media/Resume.0d3e71b8e24f83516f28.pdf",
+    "static/media/toDoListPic.png": "/portfolio-cbd3c.web.app/static/media/toDoListPic.f795ae3e51c979fad76e.png",
+    "static/media/backgroundPic.jpeg": "/portfolio-cbd3c.web.app/static/media/backgroundPic.81ea7fb17ad4f0420606.jpeg",
+    "index.html": "/portfolio-cbd3c.web.app/index.html",
+    "main.3b68ed67.css.map": "/portfolio-cbd3c.web.app/static/css/main.3b68ed67.css.map",
+    "main.375c880d.js.map": "/portfolio-cbd3c.web.app/static/js/main.375c880d.js.map",
+    "787.87c8eaef.chunk.js.map": "/portfolio-cbd3c.web.app/static/js/787.87c8eaef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b68ed67.css",
-    "static/js/main.71c7e1dc.js"
+    "static/js/main.375c880d.js"
   ]
 }

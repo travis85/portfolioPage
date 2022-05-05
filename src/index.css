@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@react-spring/konva;
+/* @react-spring/konva;
 @react-spring/native;
 @react-spring/three;
 @react-spring/web;
-@react-spring/zdog;
+@react-spring/zdog; */
 
 /* body {
   margin: 0;

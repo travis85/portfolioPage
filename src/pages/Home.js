@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Typical from "react-typical"
 import pic from "../assets/portfolioPic.jpeg"
 import backgroundPic from "../assets/backgroundPic.jpeg"
@@ -10,10 +10,10 @@ const Home = () => {
 
 
   return (
+    <>
     <div className="  justify-center text-center place-items-center h-[10%] min-h-fit  ">
     <div className='ProfileParent flex flex-row'>
       <div className='ProfileDetails basis-2/3'>
-
         <div className=' flex flex-col mt-20 mb-10'>
           <span className='primar-text text-black'>
             {""}
@@ -78,7 +78,8 @@ const Home = () => {
         </div>
       </div>
 
-    </div>
+      </div>
+      </>
   )
 }
 

@@ -1,16 +1,12 @@
 {
   "hosting": {
+    "site": "portfolio-cbd3c",
     "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
+    
   }
 }

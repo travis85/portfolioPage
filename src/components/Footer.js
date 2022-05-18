@@ -10,12 +10,12 @@ export default function Footer() {
 
     return (
         <>
-        <div className="grid grid-rows-1 place-content-center mb-2 mt-4">
-            <h1 className="">Featured Projects</h1>
+        <div className="grid grid-rows-1 place-content-center mb-8 mt-8 md:hidden">
+            <h1 className="italic text-blue-900 underline underline-offset-1 text-4xl font-semibold">Featured Projects</h1>
 
         </div>   
 
-        <div className="grid grid-cols place-content-center gap-4">
+        <div className="grid grid-cols place-content-center gap-4 md:hidden">
         <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={weatherPic} />
             <Card.Body>
@@ -28,7 +28,7 @@ export default function Footer() {
             </Card.Body>
         </Card>
                 
-         <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={budgetPic} />
             <Card.Body>
             <Card.Title>Budget Tracker</Card.Title>
@@ -51,16 +51,18 @@ export default function Footer() {
         </Card>
 
         </div>
-        
-        <div className="hidden md:grid grid-col  place-items-center md:mt-20  space-y-20" >
-         <div className="md:flex justify-center text-blue-500 text-4xl  font-semibold mb-4 ">
-                <h1 className= "font-mono italic text-blue-900 underline underline-offset-1" >Featured Projects</h1>
+            
+
+        {/* MD BREAKPOINT */}
+        <div className="hidden md:grid grid-col grid-row-4 mt-20" >
+         <div className="md:grid grid-rows-1 place-items-center text-blue-500 text-4xl  font-semibold mb-4 ">
+                <h1 className= "underline-offset-1 text-4xl font-semibold italic text-blue-900 underline " >Featured Projects</h1>
          </div>
           
-            <div className="card mb-3 shadow-xl mr-[20%] ml-1 rounded-xl bg-gradient-to-r from-blue-500 to-blue-200" >
+            <div className="card mb-4 shadow-xl mr-[20%] ml-1 rounded-xl bg-gradient-to-r from-blue-500 to-blue-200" >
                 <div className="row g-0">
                     <div className="col-md-4">
-                        <img src={ weatherPic } className="aspect-square rounded-xl " alt="..."/>
+                        <img src={ weatherPic } className="h-80 aspect-square rounded-xl " alt="..."/>
                     </div>
                     <div className="col-md-8 ">
 
@@ -74,10 +76,10 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="m-4 md:card mb-3 shadow-xl ml-[20%] mr-1 rounded-xl bg-gradient-to-l from-blue-500 to-blue-200" >
+            <div className="card mb-4 shadow-xl ml-[20%] mr-1 rounded-xl bg-gradient-to-l from-blue-500 to-blue-200" >
                 <div className=" float-right ">
-                    <div className="col-md-4 float-right">
-                        <img src={ budgetPic } className="aspect-square rounded-xl " alt="..."/>
+                    <div className="float-right">
+                        <img src={ budgetPic } className="h-80 aspect-square rounded-xl " alt="..."/>
                     </div>
                     <div className="col-md-8">
                     
@@ -93,10 +95,10 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="m-4 md:card mb-3 shadow-xl mr-[20%] ml-1 rounded-xl bg-gradient-to-r from-blue-500 to-blue-200" >
+            <div className="card mb-4 shadow-xl mr-[20%] ml-1 rounded-xl bg-gradient-to-r from-blue-500 to-blue-200" >
                 <div className="row g-0 ">
                     <div className="col-md-4 ">
-                        <img src={ toDoListPic } className="aspect-square rounded-xl " alt="..."/>
+                        <img src={ toDoListPic } className="aspect-square rounded-xl h-80" alt="..."/>
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">

@@ -8,7 +8,7 @@ export default function AboutMe() {
             <h1 className='flex justify-center  italic text-blue-900 underline underline-offset-1 text-4xl font-semibold '>About Me</h1>
         </div>
 
-        <div className='grid grid-cols-1 place-content-center mt-4 md:flex flex-row relative mt-20'>
+        <div className='grid grid-cols-1 place-content-center mt-4 md:flex flex-row relative '>
   
             <div className='grid grid-cols-1 place-content-center  md:flex flex-cols-1 basis-1/3  text-2xl '>
                 <br></br>

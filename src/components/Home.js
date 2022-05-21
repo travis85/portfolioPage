@@ -57,15 +57,15 @@ const Home = () => {
                 <button   className=" border-solid border-2 rounded py-1 px-2 ring-2  m-2  bg-blue-800 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
                   Contact Me
                 </button>
-                </Link>
+                </Link>   
 
                 <a href={ResumePDF}>
                   <button className=" border-solid border-2 rounded py-1 px-2 ring-2  bg-blue-800 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300" >Resume</button>
                 </a>
               </div>
 
-              </div>
-              <a href="https://drive.google.com/file/d/1QQmjfhCwz6_ou6K6EJOW603s25lvmyOD/view?usp=sharing"><p>Letters Of recommendation</p></a>      
+              </div>    
+              <a href="https://drive.google.com/file/d/1sAi5JfSJv8mDpPmzj_6JVg-h7nKEi3fy/view?usp=sharing"><p>Letters Of Recommendation</p></a>      
           
           </div>
     

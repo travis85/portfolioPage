@@ -65,7 +65,7 @@ const Home = () => {
               </div>
 
               </div>    
-              <a href="https://drive.google.com/file/d/1sAi5JfSJv8mDpPmzj_6JVg-h7nKEi3fy/view?usp=sharing"><p>Letters Of Recommendation</p></a>      
+              <a href="https://drive.google.com/file/d/1OHKPw0dsXrYQ8ATxhvxKIUbY4XGWjSxs/view?usp=sharing"><p>Letters Of Recommendation</p></a>      
           
           </div>
     

@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Form, FloatingLabel } from 'react-bootstrap'
+import emailImage from '../assets/mailbox-svgrepo-com.svg'
 
 
 
@@ -59,7 +60,6 @@ function Contact() {
           
         <div className='hidden md:grid grid-cols-2 mb-10'>
             <form ref={form}  onSubmit={SendEmail}>
-
                 <div className=' ml-4'>
                     <div className="mb-3 ">
                         <label  className="form-label text-2xl">Name:</label>
@@ -75,8 +75,12 @@ function Contact() {
                     </div>
                     <input type="submit" value='Send' className="border-solid border-2 rounded py-2 px-4 ring-2  transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"></input>
                 </div>
+              </form>
 
-            </form>
+              <div className='flex justify-center'>
+                  
+                  <img className=' max-h-60 rounded' src={emailImage} />
+              </div>
         </div>
 
     </div>
